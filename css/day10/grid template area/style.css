@@ -14,7 +14,7 @@
     grid-template-columns: 200px 400px;
     grid-template-rows: 30px 500px 30px;
 
-    grid-template-areas: 
+    grid-template-areas:  
     "hd hd"
     "side main";
     
