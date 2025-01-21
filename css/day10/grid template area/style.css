@@ -13,21 +13,21 @@
   "main"
   "ft"; */
 
-  /* grid-template-columns: 200px 400px;
+  grid-template-columns: 200px 400px;
   grid-template-rows: 30px 500px 30px;
 
   grid-template-areas: 
   "hd hd"
   "side main"
-  "ft ft"; */
+  "ft ft";
 
-  grid-template-columns: 300px 300px 300px;
+  /* grid-template-columns: 300px 300px 300px;
   grid-template-rows: 250px 600px;
 
   grid-template-areas: 
   "hd hd hd hd hd hd hd hd "
   "side side main main main main main main"
-  "ft ft ft ft ft ft ft ft";
+  "ft ft ft ft ft ft ft ft"; */
 
 
 
