@@ -47,9 +47,12 @@
 }
 
 #header {
-  grid-area: hd;
+  grid-area: ft;
 }
 
+#footer {
+  grid-area: hd;
+}
 #sidebar {
   grid-area: side;
 }
@@ -58,6 +61,3 @@
   grid-area: main;
 }
 
-#footer {
-  grid-area: ft;
-}
