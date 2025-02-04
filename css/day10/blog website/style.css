@@ -1,0 +1,10 @@
+.container{
+    border: 1px solid black;
+    background: yellow;
+    height: 700px;
+
+    display: grid;
+    grid-template-rows: 30px 1fr 30px;
+    grid-template-columns: 100px 400px;
+    grid-gap:10px;
+}
