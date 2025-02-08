@@ -34,3 +34,20 @@
 
 
 
+.childgrid{
+    height: 100%;
+    width: 100%;
+    display: grid;
+
+
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+    grid-gap:5px;
+
+}
+
+.element{
+    border:2px solid green;
+    background-color: hotpink;
+}
