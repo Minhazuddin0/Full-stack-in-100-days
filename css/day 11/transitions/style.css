@@ -13,5 +13,10 @@
     margin: 20px;
     height: 150px;
     width: 150px;
+    transition: .5s;
     
+}
+
+.box:hover{
+    background-color: brown;
 }
