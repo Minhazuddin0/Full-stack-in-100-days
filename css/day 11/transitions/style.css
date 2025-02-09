@@ -14,13 +14,16 @@
   width: 150px;
   /* transition: 2s;
     transition-property:all;
-    transition-delay: 5s; */
+    transition-delay: 5s; *   /
 
-  /* transition: background-color 1s ease 2s; */
-  transition: all 200ms ease;
+  /* transition: background-color 1s   ease 2s; */
+  /* transition: all 200ms ease ; */
+  /* transition: transform 3s cubic-bezier(0,-1.74, 1,-0.83); */
+  transition: 1s ease 1s;
 }
 
 .box:hover {
-  background-color: brown;
-  transform: rotate(99999deg);
+   background-color: brown;
+
+  transform: scale(2) translateX(501px) rotate(999deg);
 }
