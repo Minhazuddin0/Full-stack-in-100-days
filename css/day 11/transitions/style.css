@@ -1,22 +1,26 @@
-.container{
-    border: 3px solid red;
-    background-color: green;
-    height: 500px;
-    width: 500px;
-    display: flex;
+.container {
+  border: 3px solid red;
+  background-color: green;
+  height: 500px;
+  width: 500px;
+  display: flex;
 }
 
+.box {
+  border: 2px solid orange;
+  background-color: aqua;
+  margin: 20px;
+  height: 150px;
+  width: 150px;
+  /* transition: 2s;
+    transition-property:all;
+    transition-delay: 5s; */
 
-.box{
-    border: 2px solid orange;
-    background-color: aqua;
-    margin: 20px;
-    height: 150px;
-    width: 150px;
-    transition: .5s;
-    
+  /* transition: background-color 1s ease 2s; */
+  transition: all 200ms ease;
 }
 
-.box:hover{
-    background-color: brown;
+.box:hover {
+  background-color: brown;
+  transform: rotate(99999deg);
 }
