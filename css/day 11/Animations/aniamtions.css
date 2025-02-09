@@ -1,0 +1,64 @@
+.container{
+    width: 100%;
+    height: 202px;
+    background-color: yellow;
+    border: 2px solid red;
+}           
+
+
+.box{
+    border: 2px solid green;
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+
+    animation-name: minhaz;
+    animation-duration: 3s;
+    animation-iteration-count:1s ;
+    animation-timing-function: linear;
+    animation-delay:1s;
+    /* animation-direction: alternate ; */
+    animation-fill-mode:backwards ;
+
+}
+
+
+@keyframes minhaz{
+    0%{
+        width: 212px;
+        background-color: orange;
+
+    }
+
+    50%{
+        width: 35%;
+        background-color: aquamarine;
+
+    }
+
+    /* 65%{
+        width: 70%;
+        background-color: blue;
+
+    } */
+
+    100%{
+        width: 100%;
+        background-color: green;
+        
+    }
+}
+
+/* @keyframes minhaz{
+    from{
+        width: 212px;
+
+
+    }
+
+    to{
+        width: 100%;
+
+
+    } */
+}
