@@ -1,80 +1,105 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "be vietnam pro", sans-serif;
-    scroll-behavior: smooth;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "be vietnam pro", sans-serif;
+  scroll-behavior: smooth;
 }
 
-:root{
-    --bg0range: #e84949;
+:root {
+  --bg0range: #e84949;
 }
 
-
-
-
-.wrapper{
-    height: 100vh;
-    overflow-y: auto;
-    overflow-x: hidden;
+.wrapper {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  
 }
 
-.container{
-    width: 1200px;
-    margin: 0 auto;
-
+.container {
+  width: 1200px;
+  margin: 0 auto;
 }
 
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-
-    padding: 1rem;
+  padding: 1rem;
 }
 
-.logo{
-    width: 80px;
+.logo {
+  width: 80px;
 }
 
-.logo-container{
-    display: flex ;
-    justify-content: baseline;
-    align-items: center;
+.logo-container {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
 }
 
-.logo-text{
-    margin-left:-1.2rem;
-    font-size: 28px;
+.logo-text {
+  margin-left: -1.2rem;
+  font-size: 28px;
 }
 
-.nav-items{
-    display: flex;
-    gap: 2rem;
-    padding: 0 4em;
-
-
+.nav-items {
+  display: flex;
+  gap: 2rem;
+  padding: 0 4em;
 }
 
-.nav-items div{
-    font-size: 20px;
-    font-weight: 500;
-    cursor:pointer;
-    
+.nav-items div {
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
 }
 
-.nav-items div a{
-    color: black;
+.nav-items div a {
+  color: black;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-.nav-items div:hover{
+.nav-items div:hover {
+  font-weight: bold;
+  transition: 0.8s;
+}
+
+.hero-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 5rem;
+  margin: 4rem auto;
+  padding: 0 1rem;
+  padding-bottom: 8rem;
+}
+
+.faded-text{
+    user-select: none;
+    font-size: 7em;
+    color: rgb(231, 231, 231);
+
+    bottom: -16%; 
+    left: -5%;
     font-weight: bold;
-    transition: 0.8s;
+    transition: all 3s;
+}
+
+
+.hero-section-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    
 }
