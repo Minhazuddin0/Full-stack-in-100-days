@@ -127,3 +127,47 @@ a {
     width: 70%;
     font-weight: 500;
 }
+
+
+.btn-pink{
+    background-color: var(--bg0range);
+    width: fit-content;
+    padding: 0.8rem 2.3rem;
+    color: white;
+    font-size: 18px;
+    box-shadow: 5px 5px 7px 0px #0000003f;
+    cursor: pointer;
+    transition: all 0.5s;
+    font-weight: 500;
+    border: solid 3px transparent;
+    position: relative;
+    z-index: 1;
+
+
+
+}
+
+
+.btn-pink::before{
+    content:"";
+    position: absolute;
+    background-color: #1f1f1f;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all 0.8s;
+}
+
+
+.btn-pink:hover::before{
+    transform: scaleX(1);
+}
+
+.btn-pink:hover{
+    border: solid 3px var(--bg0range);
+    color: black;
+}
+
