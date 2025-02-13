@@ -84,6 +84,7 @@ a {
 }
 
 .faded-text {
+  position: absolute;
   user-select: none;
   font-size: 7em;
   color: rgb(231, 231, 231);
@@ -305,6 +306,3 @@ a {
 }
 
 
-.faded-text{
-position: absolute;
-}
