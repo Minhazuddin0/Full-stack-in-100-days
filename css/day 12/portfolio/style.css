@@ -254,13 +254,10 @@ a {
   animation-iteration-count: infinite;
 }
 
-@keyframes shakeeffect  {
-  
-  
+@keyframes shakeeffect {
   0% {
- 
-    left:0;
-    bottom:0;
+    left: 0;
+    bottom: 0;
   }
 
   50% {
@@ -268,42 +265,43 @@ a {
     bottom: 10%;
   }
 
-  100% {left: 0;
+  100% {
+    left: 0;
     bottom: 10;
   }
 }
 
-.icons-zigzag{
+
+
+.icons-zigzag {
   z-index: 9;
   top: 1.5em;
   left: -0.3em;
   animation: zigaganimation 5s ease infinite;
-
 }
 
-@keyframes zigaganimation{
-  50%{
+
+
+@keyframes zigaganimation {
+  50% {
     top: 2%;
     left: 5%;
   }
 }
 
 
-.icons-plus{
+
+
+.icons-plus {
   z-index: 9;
   top: -0.8rem;
   left: 50%;
   animation: shakeeffectplus 5s ease-in infinite;
-
 }
 
-
-@keyframes shakeeffectplus{
-  50%{
+@keyframes shakeeffectplus {
+  50% {
     top: 3%;
     left: 48%;
   }
 }
-
-
-  
