@@ -32,7 +32,7 @@
 }
 
 .logo {
-  width: 80px;
+  width: 100px;
 }
 
 .logo-container {
@@ -273,5 +273,38 @@ a {
 }
 
 .icons-zigzag{
-  
+  z-index: 9;
+  top: 1.5em;
+  left: -0.3em;
+  animation: zigaganimation 5s ease infinite;
+
+}
+
+@keyframes zigaganimation{
+  50%{
+    top: 2%;
+    left: 5%;
+  }
+}
+
+
+.icons-plus{
+  z-index: 9;
+  top: -0.8rem;
+  left: 50%;
+  animation: shakeeffectplus 5s ease-in infinite;
+
+}
+
+
+@keyframes shakeeffectplus{
+  50%{
+    top: 3%;
+    left: 48%;
+  }
+}
+
+
+.faded-text{
+position: absolute;
 }
