@@ -622,3 +622,14 @@ a {
   color: var(--bg0range);
   line-height: 50px;
 }
+
+.caps{
+  font-size: 90px;
+
+}
+
+.skill-subHeading{
+  margin-top: 1rem;
+  width: 85%;
+  text-align: justify ;
+}
