@@ -567,5 +567,23 @@ a {
 .skill-container-left{
   width: 50%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+}
+
+.skill-container-right{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  gap: 2rem;
+}
+
+.skill-faded-text{
+  position: absolute;
+  font-size: 15em;
+  font-weight: bold;
+  color: rgb(231, 231, 231);
+  bottom: -34.5%;
+   right: -25%;
+   user-select: none;
 }
