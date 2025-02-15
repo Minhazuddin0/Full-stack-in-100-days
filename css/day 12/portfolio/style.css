@@ -550,7 +550,7 @@ a {
   .project-card:hover .project-number{
     display: none ;
   }
-
+  
   .project-card:hover .project-content{
     scale: 0.55;
   }
