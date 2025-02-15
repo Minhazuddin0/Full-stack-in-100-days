@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   font-family: "be vietnam pro", sans-serif;
   scroll-behavior: smooth;
 }
@@ -567,7 +567,7 @@ a {
 .skill-container-left{
   width: 50%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .skill-container-right{
@@ -632,4 +632,14 @@ a {
   margin-top: 1rem;
   width: 85%;
   text-align: justify ;
+}
+
+.skill-subHeading p{
+  margin: 15px;
+}
+
+
+.contactus-form-container{
+  width: 100%;
+  background-color: rgb(231,231,231);
 }
