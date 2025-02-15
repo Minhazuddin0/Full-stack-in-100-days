@@ -142,7 +142,7 @@ a {
 .btn-pink::before {
   content: "";
   position: absolute;
-  background-color: #1f1f1f;
+  background-color: #fffefe;
   top: 0px;
   left: 0;
   right: 0;
@@ -694,4 +694,19 @@ a {
 .formfield-textarea{
   height: auto;
   padding-top: 1rem;
+}
+
+#submit-btn{
+  border: none;
+  font-size: 1.4rem;
+  margin: 1rem 0;
+}
+
+#submit-btn:hover{
+  scale: 0.9;
+}
+
+.submit-icon{
+  padding: 0 1rem;
+  font-size: ;
 }
