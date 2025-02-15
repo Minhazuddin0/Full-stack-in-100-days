@@ -481,7 +481,7 @@ a {
   background-image: url(/portfolio/image/Project4.png);
   margin-left: 120px;
 }
-
+                                    /* media quieres */
 @media (max-width:1300px){
 
   .page-header {
@@ -524,5 +524,34 @@ a {
   .project-heading{
     font-size: 40px;
     width: 100%;
+  }
+
+  .project-subheading{
+    width: 100%;
+  }
+
+  #project2{
+    margin-left: 0;
+  }
+
+  #project4{
+    margin-left: 0;
+
+  }
+
+  .project-skills-container{
+    width: 100%;
+  }
+
+  .project-skill{
+    width: 35px;
+  }
+
+  .project-card:hover .project-number{
+    display: none ;
+  }
+
+  .project-card:hover .project-content{
+    scale: 0.55;
   }
 }
