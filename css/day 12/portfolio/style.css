@@ -368,6 +368,15 @@ a {
   color: white;
   z-index: 1;
   text-align: right;
+  /* display: none; */
+  opacity: 0;
+  
+}
+
+.project-card:hover .project-number{
+  /* display:block ; */
+  opacity: 1;
+  
 }
 
 .project-number-right{
@@ -441,5 +450,34 @@ a {
 .icon{
   cursor: pointer;
   color: white;
+  font-size: 35px;
+  transition: 0.4s;
   
+}
+
+.icon:hover{
+  color: var(--bg0range);
+}
+
+.project-card:hover .project-content{
+  transform: scale(1.1);
+  
+}
+
+#project1{
+  background-image: url(/portfolio/image/Project1.png);
+}
+
+#project2{
+  background-image: url(/portfolio/image/Project2.png);
+  margin-left: 120px;
+}
+
+#project3{
+  background-image: url(/portfolio/image/Project3.png);
+}
+
+#project4{
+  background-image: url(/portfolio/image/Project4.png);
+  margin-left: 120px;
 }
