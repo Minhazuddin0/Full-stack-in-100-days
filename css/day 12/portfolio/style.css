@@ -555,3 +555,11 @@ a {
     scale: 0.55;
   }
 }
+
+.skills-container{
+  position: relative;
+  display: flex;
+  padding: 5rem;
+  margin: 10rem auto;
+  gap: 30px;
+}
