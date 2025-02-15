@@ -563,3 +563,9 @@ a {
   margin: 10rem auto;
   gap: 30px;
 }
+
+.skill-container-left{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
