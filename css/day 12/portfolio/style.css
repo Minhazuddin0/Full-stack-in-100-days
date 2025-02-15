@@ -576,6 +576,7 @@ a {
   flex-wrap: wrap;
   position: relative;
   gap: 2rem;
+  justify-content: center;
 }
 
 .skill-faded-text{
@@ -587,4 +588,37 @@ a {
   right: -25%;
   user-select: none;
   overflow-y: hidden;
+}
+
+.blob-style{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate( -50%, -50%);
+  animation: blobanimate 3s linear infinite;
+  z-index: -1;
+}
+
+@keyframes blobanimate{
+  50%{
+    top: 54%;
+    left: 46%;
+  }
+} 
+
+.skills-logo{
+  width: 90px;
+  transition: all 0.5s;
+
+}
+
+.skills-logo:hover{
+  transform: scale(1.2);
+}
+
+.skill-heading{
+  font-size: 50px;
+  font-style: bold;
+  color: var(--bg0range);
+  line-height: 50px;
 }
