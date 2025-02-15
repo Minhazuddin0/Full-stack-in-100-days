@@ -584,6 +584,7 @@ a {
   font-weight: bold;
   color: rgb(231, 231, 231);
   bottom: -34.5%;
-   right: -25%;
-   user-select: none;
+  right: -25%;
+  user-select: none;
+  overflow-y: hidden;
 }
