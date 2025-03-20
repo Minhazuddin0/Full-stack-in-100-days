@@ -4,7 +4,7 @@ console.log('first program')
 let a =true;
 console.log(a);
 
-const num =12;
+// const num =12;
 // num=13
 
 
@@ -54,3 +54,17 @@ else{
 }
 
 
+// switch case
+
+let num =2;
+
+
+switch(num){
+    case 1: console.log('A');
+    break;
+    case 2: console.log('B');
+    break;
+    case 3: console.log('C');
+    break;
+    default:console.log('D');
+}
