@@ -31,40 +31,53 @@ let status = (age>=18) ? 'yes vote' : 'no vote';
 
 console.log(status)
 
-let marks =98;
+// let marks =98;
 
-if(marks >=90) {
-    console.log('A');
-}
+// if(marks >=90) {
+//     console.log('A');
+// }
 
-else if(marks >=80) {
-    console.log('B');
-}
+// else if(marks >=80) {
+//     console.log('B');
+// }
 
-else if(marks >=70) {
-    console.log('c');
-}
+// else if(marks >=70) {
+//     console.log('c');
+// }
 
-else if(marks >=60) {
-    console.log('D');
-}
+// else if(marks >=60) {
+//     console.log('D');
+// }
 
-else{
-    console.log('E');
-}
+// else{
+//     console.log('E');
+// }
 
 
 // switch case
 
-let num =2;
+// let num =2;
 
 
-switch(num){
-    case 1: console.log('A');
-    break;
-    case 2: console.log('B');
-    break;
-    case 3: console.log('C');
-    break;
-    default:console.log('D');
+// switch(num){
+//     case 1: console.log('A');
+//     break;
+//     case 2: console.log('B');
+//     break;
+//     case 3: console.log('C');
+//     break;
+//     default:console.log('D');
+// }
+
+
+for(let i = 1; i<=5; i=i+1) {
+    console.log("min"+i);
+}
+
+
+let x=1;
+
+while (x<=5) {
+    console.log(x);
+    x++;
 }
