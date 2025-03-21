@@ -43,6 +43,7 @@ function Rectangle(len ,bre){
     }
 }
 
+
 // object creation using constructor function
 
 let rectangleObject = new Rectangle(4,6);
@@ -52,3 +53,17 @@ console.log(rectangleObject);
 
 delete rectangleObject.color;
 console.log(rectangleObject);
+
+let Rectangle1 = new Function(
+    'length' , 'breadth' ,
+    `this.length =length;
+    this.breadth =breadth;
+    this.draw = function(){
+    console.log('drawing');
+    }`);
+
+
+    // object creation using Rectangle1
+
+    let rect = new Rectangle1(2 ,3);
+    console.log(rect);
