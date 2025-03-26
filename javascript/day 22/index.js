@@ -1,1 +1,1 @@
-console.log(day22);
+console.log('hello world');
