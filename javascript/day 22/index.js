@@ -36,13 +36,23 @@ let numbers = [1,4,5,7 ];
 
 // searching
 
-console.log(numbers);
-console.log(numbers.indexOf(7));
+// console.log(numbers);
+// console.log(numbers.indexOf(7));
 
 // we want to check if a number exits in an array
 
-if(numbers.indexOf() != -1);
+// if(numbers.indexOf() != -1);
 
-console.log("present");
+// console.log("present");
 
-console.log(numbers.includes());
+// console.log(numbers.includes(5));
+
+// console.log(numbers.indexOf(4, 1));
+let courses = [
+    {no:1, naam:'minhaz'},
+    {no:2, naam:'mini'}
+]
+
+console.log(courses);
+
+console.log(courses.includes({no:1, naam:'minhaz'}));
