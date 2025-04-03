@@ -55,4 +55,9 @@ let courses = [
 
 console.log(courses);
 
-console.log(courses.includes({no:1, naam:'minhaz'}));
+// console.log(courses.includes({no:1, naam:'minhaz'}));
+
+let course = courses.find(course => course.naam === 'minhaz');
+
+
+console.log(course);
