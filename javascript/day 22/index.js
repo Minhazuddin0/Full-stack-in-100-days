@@ -31,3 +31,18 @@ let numbers = [1,4,5,7 ];
 //  end --> push
 // begin --> unshift
 // middle --> splice
+
+
+
+// searching
+
+console.log(numbers);
+console.log(numbers.indexOf(7));
+
+// we want to check if a number exits in an array
+
+if(numbers.indexOf() != -1);
+
+console.log("present");
+
+console.log(numbers.includes());
