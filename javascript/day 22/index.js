@@ -61,3 +61,23 @@
 
 
 // console.log(course);
+
+// let numbers =[1,2,3,4,5,6,7];
+
+// // remove end
+// numbers.pop();
+
+// // remove beginning
+// numbers.shift();
+
+// // remove middle
+// numbers.splice(2,1);
+
+// console.log(numbers);
+
+
+let numbers =[1,2,3,4,5];
+
+console.log(numbers);
+
+
