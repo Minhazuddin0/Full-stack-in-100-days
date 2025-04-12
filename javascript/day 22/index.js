@@ -89,22 +89,56 @@
  
 // console.log(numbers2);
 
-let first = [1,2,3];
+// let first = [1,2,3];
 
-let second =[4,5,6];
+// let second =[4,5,6];
 
-let combined =(first.concat(second));
+// let combined =(first.concat(second));
 
-console.log(first);
-console.log(second);
-console.log(combined);
-
-
-let marks =[10,20,30,40,50,60,70,80];
-let sliced = marks.slice(2);
-
-console.log(sliced);
+// console.log(first);
+// console.log(second);
+// console.log(combined);
 
 
+// let marks =[10,20,30,40,50,60,70,80];
+// let sliced = marks.slice(2);
+
+// console.log(sliced);
 
 
+// let first = [1,2,3];
+// let second =[4,5,6];
+
+// let combined =[...first,'a', ...second , 'b'];
+
+// console.log(combined);
+
+// array copy kaise kare
+
+// let another = [...combined];
+
+// console.log(another);
+
+// let arr =[10,20,30,40,50];
+
+// for(let value of arr){
+//     console.log(value);
+// }
+
+
+// arr.forEach(number => console.log(number) );
+
+
+// let numbers =[10,20,30,40,50];
+// const joined = numbers.join(',');
+// console.log(joined);
+
+
+let message = 'this is my first message';
+
+let parts = message.split(' ');
+
+console.log(parts);
+
+let joined = parts.join('+');
+console.log(joined);
