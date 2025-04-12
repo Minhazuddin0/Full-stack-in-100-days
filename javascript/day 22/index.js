@@ -76,18 +76,35 @@
 // console.log(numbers);
 
 
-let numbers =[1,2,3,4,5];
-let numbers2 = numbers; 
+// let numbers =[1,2,3,4,5];
+// let numbers2 = numbers; 
 
 // numbers=[];
+// numbers.length= 0;
+// numbers.splice(0,numbers.length);
 
-numbers.length= 0;
 
 
+// console.log(numbers);
+ 
+// console.log(numbers2);
 
-console.log(numbers);
+let first = [1,2,3];
 
-console.log(numbers2);
+let second =[4,5,6];
+
+let combined =(first.concat(second));
+
+console.log(first);
+console.log(second);
+console.log(combined);
+
+
+let marks =[10,20,30,40,50,60,70,80];
+let sliced = marks.slice(2,6);
+
+console.log(sliced);
+
 
 
 
