@@ -28,3 +28,9 @@
 
 // jump();
 // stand2();
+
+let x =1;
+
+x ='a';
+
+console.log(x);
