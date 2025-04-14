@@ -143,10 +143,28 @@
 // let joined = parts.join('+');
 // console.log(joined);
 
-let numbers = [50,30,40,10,20];
+// let numbers = [50,30,40,10,20];
 
-numbers.sort(); 
+// numbers.sort(); 
+
+// console.log(numbers);
+
+// console.log(numbers);
+
+// numbers.reverse();
+
+
+// let numbers = [1,2,-1,-4];
+
+// let filtered = numbers.filter(value=> value >= 0);    
+
+// console.log(filtered);
+
+
+let numbers = [7,8,9,10];
 
 console.log(numbers);
 
-numbers.reverse();
+let items =  numbers.map(value => 'student_no' + value);
+
+console.log(items);
