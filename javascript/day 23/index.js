@@ -36,6 +36,7 @@ x ='a';
 console.log(x);
 
 function sum(a,b){
+    console.log(arguments);
     return a+b;
 }
 
