@@ -161,10 +161,17 @@
 // console.log(filtered);
 
 
-let numbers = [7,8,9,10];
+// let numbers = [7,8,9,10];
 
-console.log(numbers);
+// console.log(numbers);
 
-let items =  numbers.map(value => 'student_no' + value);
+// let items =  numbers.map(value => 'student_no' + value);
+
+
+let numbers = [1,2,-6,-9];
+
+let items = numbers
+            .filter(value => value >= 0)
+            .map(num => {value: num});
 
 console.log(items);
