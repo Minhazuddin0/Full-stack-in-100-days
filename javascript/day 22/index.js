@@ -134,11 +134,19 @@
 // console.log(joined);
 
 
-let message = 'this is my first message';
+// let message = 'this is my first message';
 
-let parts = message.split(' ');
+// let parts = message.split(' ');
 
-console.log(parts);
+// console.log(parts);
 
-let joined = parts.join('+');
-console.log(joined);
+// let joined = parts.join('+');
+// console.log(joined);
+
+let numbers = [50,30,40,10,20];
+
+numbers.sort(); 
+
+console.log(numbers);
+
+numbers.reverse();
