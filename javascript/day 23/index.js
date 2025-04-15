@@ -77,7 +77,7 @@ let person = {
         return `${person.fName} ${person.lName}`;
     },
     set fullName(value){
-        if (typeof value !== string){
+        if (typeof value !== String){
             throw new Error ("you have not sent a string");
         }
          let parts = value.split(' ');
