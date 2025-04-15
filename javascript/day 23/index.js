@@ -59,9 +59,9 @@
 
 // default parameters
 
-function interest(p,r=6,y=10){
-    return p*r*y/100;
-}
+// function interest(p,r=6,y=10){
+//     return p*r*y/100;
+// }
 
 // GETTER SETTER
 
@@ -70,22 +70,22 @@ function interest(p,r=6,y=10){
 
 // console.log(interest(1000,8));
 
-let person = {
-     fName :'minhaz',
-     lName :'uddin',
-     get fullName(){
-        return `${person.fName} ${person.lName}`;
-    },
-    set fullName(value){
-        if (typeof value !== String){
-            throw new Error ("you have not sent a string");
-        }
-         let parts = value.split(' ');
-         this.fName = parts[0];
-         this.lName = parts[1];
-    }
+// let person = {
+//      fName :'minhaz',
+//      lName :'uddin',
+//      get fullName(){
+//         return `${person.fName} ${person.lName}`;
+//     },
+//     set fullName(value){
+//         if (typeof value !== String){
+//             throw new Error ("you have not sent a string");
+//         }
+//          let parts = value.split(' ');
+//          this.fName = parts[0];
+//          this.lName = parts[1];
+//     }
     
-}; 
+// }; 
 
 
 
@@ -94,12 +94,36 @@ let person = {
 
 
 // console.log(person.fullName);
-try{
-    person.fullName = true;   
-}
+// try{
+//     person.fullName = true;   
+// }
 
-catch(e){
-    alert (e);
-}
+// catch(e){
+//     alert (e);
+// }
 
-console.log(person.fullName); 
+// console.log(person.fullName); 
+
+
+// {  
+//      var a =5 ;
+
+// }console.log(a);
+
+// function walk(){
+//     var a = 5;
+// }
+
+// console.log(a);
+
+// for (var i=0; i<10; i++){
+
+// }
+
+// console.log(i);
+
+// if (true){
+//     var a = 5 ;
+// }
+
+// console.log(a);
