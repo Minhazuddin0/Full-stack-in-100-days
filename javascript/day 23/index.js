@@ -71,4 +71,10 @@ let person = {
 }; 
 
 
-console.log(person);
+// console.log(person);
+
+function fullName(){
+    return `${person.fName} ${person.lName}`;
+}
+
+console.log(fullName); 
