@@ -46,3 +46,12 @@
 
 // let ans =sum(1,2,2,3);
 // console.log(ans);
+
+
+
+function sum (...args){
+    console.log(args);
+}
+
+
+sum(1,2,3,4,5,6);
