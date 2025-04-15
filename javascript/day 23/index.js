@@ -128,10 +128,10 @@
 
 // console.log(a);
 
-function a(){
-    const ab =5;
-}
-const ab = 5;
-function b(){
-    const ab =5;
-}
+// function a(){
+//     const ab =5;
+// }
+// const ab = 5;
+// function b(){
+//     const ab =5;
+// }
