@@ -44,5 +44,5 @@ function sum(a,b){
 
 // console.log(sum(1,2));
 
-let ans =sum(1,2,3,4,5,6);
+let ans =sum(1);
 console.log(ans);
