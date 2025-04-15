@@ -36,8 +36,13 @@ x ='a';
 console.log(x);
 
 function sum(a,b){
-    console.log(arguments);
-    return a+b;
+    let total =0 ;
+    for ( let value of arguments)
+        total =total+ value;
+    return total;
 }
 
-console.log(sum(1,2));
+// console.log(sum(1,2));
+
+let ans =sum(1,2,3,4,5,6);
+console.log(ans);
