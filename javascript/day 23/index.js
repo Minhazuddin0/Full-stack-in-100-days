@@ -74,16 +74,32 @@ let person = {
      fName :'minhaz',
      lName :'uddin',
      get fullName(){
-        return `${person.fName}  ${person.lName}`;
-    }
-    set fullName(){
-         
+        return `${person.fName} ${person.lName}`;
+    },
+    set fullName(value){
+        if (typeof value !== string){
+            throw new Error ("you have not sent a string");
+        }
+         let parts = value.split(' ');
+         this.fName = parts[0];
+         this.lName = parts[1];
     }
     
 }; 
 
 
+
+
 // console.log(person);
 
 
-console.log(fullName()); 
+// console.log(person.fullName);
+try{
+    person.fullName = true;   
+}
+
+catch(e){
+    alert (e);
+}
+
+console.log(person.fullName); 
