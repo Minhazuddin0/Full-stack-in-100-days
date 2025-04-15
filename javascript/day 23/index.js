@@ -63,18 +63,27 @@ function interest(p,r=6,y=10){
     return p*r*y/100;
 }
 
+// GETTER SETTER
+
+// getter => access properties
+// setter => change or mutate properties 
+
 // console.log(interest(1000,8));
 
 let person = {
      fName :'minhaz',
-     lName :'uddin'
+     lName :'uddin',
+     get fullName(){
+        return `${person.fName}  ${person.lName}`;
+    }
+    set fullName(){
+         
+    }
+    
 }; 
 
 
 // console.log(person);
 
-function fullName(){
-    return `${person.fName} ${person.lName}`;
-}
 
-console.log(fullName); 
+console.log(fullName()); 
