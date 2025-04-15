@@ -29,9 +29,9 @@
 // jump();
 // stand2();
 
-let x =1;
+// let x =1;
 
-x ='a';
+// x ='a';
 
 // console.log(x);
 
@@ -40,7 +40,7 @@ x ='a';
 //     for ( let value of arguments)
 //         total =total+ value;
 //     return total;
-}
+// }
 
 // console.log(sum(1,2));
 
