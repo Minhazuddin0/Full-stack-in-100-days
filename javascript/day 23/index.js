@@ -35,7 +35,7 @@ x ='a';
 
 console.log(x);
 
-function sum(a,b){
+function sum(){
     let total =0 ;
     for ( let value of arguments)
         total =total+ value;
@@ -44,5 +44,5 @@ function sum(a,b){
 
 // console.log(sum(1,2));
 
-let ans =sum(1);
-console.log(ans);
+// let ans =sum(1,2,2,3);
+// console.log(ans);
