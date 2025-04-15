@@ -132,6 +132,8 @@
 //     const ab =5;
 // }
 // const ab = 5;
+
+
 // function b(){
 //     const ab =5;
 // }
