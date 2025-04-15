@@ -129,9 +129,9 @@
 // console.log(a);
 
 function a(){
-    const a =5;
+    const ab =5;
 }
-
+const ab = 5;
 function b(){
-    const a =5;
+    const ab =5;
 }
