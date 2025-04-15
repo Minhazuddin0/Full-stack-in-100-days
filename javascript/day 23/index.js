@@ -55,3 +55,20 @@
 
 
 // sum(1,2,3,4,5,6);
+
+
+// default parameters
+
+function interest(p,r=6,y=10){
+    return p*r*y/100;
+}
+
+// console.log(interest(1000,8));
+
+let person = {
+     fName :'minhaz',
+     lName :'uddin'
+}; 
+
+
+console.log(person);
