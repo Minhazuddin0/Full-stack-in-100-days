@@ -33,13 +33,13 @@ let x =1;
 
 x ='a';
 
-console.log(x);
+// console.log(x);
 
-function sum(){
-    let total =0 ;
-    for ( let value of arguments)
-        total =total+ value;
-    return total;
+// function sum(){
+//     let total =0 ;
+//     for ( let value of arguments)
+//         total =total+ value;
+//     return total;
 }
 
 // console.log(sum(1,2));
