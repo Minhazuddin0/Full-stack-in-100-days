@@ -127,3 +127,11 @@
 // }
 
 // console.log(a);
+
+function a(){
+    const a =5;
+}
+
+function b(){
+    const a =5;
+}
