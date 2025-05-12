@@ -36,19 +36,19 @@
 // document.body.appendChild(fragment);
 
 
-function addPara() {
-    let para = document.createElement('p');
-    para.textContent = 'Js is single';
-    document.body.appendChild(para);
-}  
+// function addPara() {
+//     let para = document.createElement('p');
+//     para.textContent = 'Js is single';
+//     document.body.appendChild(para);
+// }  
 
 
-function appendNewMessage(){
-    let para = document.createElement('p');
-    para.textContent = 'second para';
-    document.body.appendChild(para);
-}
+// function appendNewMessage(){
+//     let para = document.createElement('p');
+//     para.textContent = 'second para';
+//     document.body.appendChild(para);
+// }
 
-addPara();
-appendNewMessage();
+// addPara();
+// appendNewMessage();
 
