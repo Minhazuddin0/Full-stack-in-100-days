@@ -21,21 +21,21 @@
 // console.log('pehla');
 
 
-let promise1 = new Promise(function (resolve, reject) {
-    setTimeout(() => {
-        console.log('timeout1 started');
-    }, 2000);
-    resolve(true);
-})
+// let promise1 = new Promise(function (resolve, reject) {
+//     setTimeout(() => {
+//         console.log('timeout1 started');
+//     }, 2000);
+//     resolve(true);
+// })
 
-let output = promise1.then(() => {
-    let promise2 = new Promise(function (resolve, reject) {
-        setTimeout(() => {
-            console.log('timeout2 started');
-        }, 3000);
-        resolve("promise 2 resolve");
-    })
+// let output = promise1.then(() => {
+//     let promise2 = new Promise(function (resolve, reject) {
+//         setTimeout(() => {
+//             console.log('timeout2 started');
+//         }, 3000);
+//         resolve("promise 2 resolve");
+//     })
 
-    return promise2;
-})
-output.then((value) => console.log( value));
+//     return promise2;
+// })
+// output.then((value) => console.log( value));
