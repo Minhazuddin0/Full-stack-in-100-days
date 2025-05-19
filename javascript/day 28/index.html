@@ -14,12 +14,13 @@
     <!-- #wrapper -->
 
     <div class="w-[100vw] h-[100vh] flex flex-col items-center justify-center bg-[#344151] gap-10">
-        <div class="text-[#0398d4] font-medium text-[20px] "> Increament and Decreament</div>
+        <div class="text-[#0398d4] font-medium text-[20px] "> Increment And Decrement</div>
 
+        <div class="bg-white flex text-[25px] text-[#344151] rounded-sm gap-12 p-3 px-5">
 
+            <!-- -ve button -->
 
-        <div class="bg-white flex text-[25px] rounded-sm">
-            <button>
+            <button onclick="decrement()" class="border-r-2 border-[#bfbfbf] pr-5">
                 <i class="fa-solid fa-minus"></i>
             </button>
 
@@ -28,9 +29,9 @@
                 0
             </div>
 
+            <!-- +ve button -->
 
-
-            <button>
+            <button onclick="increment()" class="border-l-2 border-[#bfbfbf] pl-5">
                 <i class="fa-solid fa-plus"></i>
             </button>
         </div>
@@ -44,6 +45,7 @@
     
 
     </script>
+    <script src="index.js"></script>
 </body>
 
 </html>
