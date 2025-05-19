@@ -39,3 +39,9 @@
 //     return promise2;
 // })
 // output.then((value) => console.log( value));
+
+
+ async function abcd(){
+    return 7;
+
+}
