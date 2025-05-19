@@ -56,14 +56,19 @@ async function utility(){
 let uttarPradesh = new Promise ((resolve , reject) => {
     setTimeout (() => {
         resolve("UP me bahut garmi hai");
-    } , 1000);
+    } , 10000);
 });
 
 
 let lucknow = new Promise ((resolve , reject) => {
     setTimeout (() => {
         resolve("lucknow thanda hai");
-    } , 5000);
+    } , 20000);
 });
+
+let up = uttarPradesh;
+let lko = lucknow;
+ 
+return [up , lko];
 
 }
