@@ -7,6 +7,8 @@ let meraPromise1 = new Promise(function(resolve, reject){
 })
 meraPromise1.then((value) => {console.log (value)});
 
+meraPromise1.catch((error) => {console.log('this is error')});
+
 
 // let meraPromise2 = new Promise(function(resolve, reject){
 //     setTimeout(function(){
