@@ -77,9 +77,9 @@ async function helper(){
     let options = {
     method: 'POST',
     body: JSON.stringify({
-        title: 'foo',
-        body: 'bar',
-        userId: 1,
+        title: 'minhaz',
+        body: 'good body',
+        userId: 1998,
     }),
     headers: {
         'Content-type': 'application/json; charset=UTF-8',
@@ -92,7 +92,9 @@ return response;
 }
 
 
-async function utility(){
+async function utility()  {
     let ans = await helper();
     console.log(ans);
 } 
+
+utility();
