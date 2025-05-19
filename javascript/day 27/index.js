@@ -49,26 +49,50 @@
 
 
 
-async function utility(){
+// async function utility(){
 
 
 
-let uttarPradesh = new Promise ((resolve , reject) => {
-    setTimeout (() => {
-        resolve("UP me bahut garmi hai");
-    } , 10000);
-});
+// let uttarPradesh = new Promise ((resolve , reject) => {
+//     setTimeout (() => {
+//         resolve("UP me bahut garmi hai");
+//     } , 5000);
+// });
 
 
-let lucknow = new Promise ((resolve , reject) => {
-    setTimeout (() => {
-        resolve("lucknow thanda hai");
-    } , 20000);
-});
+// let lucknow = new Promise ((resolve , reject) => {
+//     setTimeout (() => {
+//         resolve("lucknow thanda hai");
+//     } , 20000);
+// });
 
-let up = uttarPradesh;
-let lko = lucknow;
- 
-return [up , lko];
+// let up = uttarPradesh;
+// let lko = lucknow;
 
+// return [up , lko];
+
+// }
+
+async function helper(){
+    let options = {
+    method: 'POST',
+    body: JSON.stringify({
+        title: 'foo',
+        body: 'bar',
+        userId: 1,
+    }),
+    headers: {
+        'Content-type': 'application/json; charset=UTF-8',
+    },
+};
+
+let Content =await fetch('https://jsonplaceholder.typicode.com/posts', options);
+let response = Content.json();
+return response;
 }
+
+
+async function utility(){
+    let ans = await helper();
+    console.log(ans);
+} 
