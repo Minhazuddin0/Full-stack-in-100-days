@@ -41,7 +41,29 @@
 // output.then((value) => console.log( value));
 
 
- async function abcd(){
-    return 7;
+//  async function abcd(){
+//     return ('minhaz');
+
+// }
+
+
+
+
+async function utility(){
+
+
+
+let uttarPradesh = new Promise ((resolve , reject) => {
+    setTimeout (() => {
+        resolve("UP me bahut garmi hai");
+    } , 1000);
+});
+
+
+let lucknow = new Promise ((resolve , reject) => {
+    setTimeout (() => {
+        resolve("lucknow thanda hai");
+    } , 5000);
+});
 
 }
